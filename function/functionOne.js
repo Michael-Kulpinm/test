@@ -4,12 +4,12 @@ function hello(){
 hello();
 
 function greetGuest(){
-    let str
+    let str=('String')
     if(str!=undefined){
-        alert('Hello String')
+        alert('Hello String!')
     }
     else{
-        alert('Hello Guest')
+        alert('Hello Guest!')
     }
 }
 greetGuest();
