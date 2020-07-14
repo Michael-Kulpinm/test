@@ -6,7 +6,7 @@ hello();
 function greetGuest(){
     let str=('String')
     if(str!=undefined){
-        alert('Hello String!')
+        alert('Hello'+str+'!')
     }
     else{
         alert('Hello Guest!')
